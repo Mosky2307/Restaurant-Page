@@ -1,4 +1,4 @@
-console.log('Huh!?!?')
+console.log('Huh!?!?!!!')
 
 const content = document.querySelector('#content');
 content.style.display = 'flex';
@@ -80,6 +80,6 @@ contactButton.textContent = 'Contact';
 topbar.appendChild(contactButton);
 contactButton.addEventListener('click', () => {
     
-    displayMenu();
+    displayContact();
 });
 displayHome();

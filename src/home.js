@@ -16,7 +16,7 @@ if (midContent.contains(homeContent) === true) {midContent.removeChild(homeConte
   midContent.appendChild(homeContent);
 
   const homePic = document.createElement('img');
-homePic.src = 'https://c0.wallpaperflare.com/preview/177/685/219/pizza-supreme-cheese-food.jpg'
+homePic.src = '../dist/images/pizza.jpg'
 const welcome = document.createElement('h1');
 welcome.textContent = 'Welcome to Taste City!';
 const homeInfo = document.createElement('div');
