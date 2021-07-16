@@ -49,7 +49,7 @@ const burgerWords = document.createElement('div');
 
 
 const pizzaPic = document.createElement('img');
-pizzaPic.src = 'https://github.com/Mosky2307/Restaurant-Page/blob/main/dist/images/pizza.jpg?raw=true';
+pizzaPic.src = './dist/images/pizza.jpg';
 pizzaPic.style.height = '200px';
 pizzaPic.style.width = 'auto'
 pizzaCard.appendChild(pizzaPic);
@@ -57,7 +57,7 @@ pizzaCard.appendChild(pizzaWords);
 pizzaWords.textContent = 'You know what this is. You know you like it. buy it';
 
 const salmonPic = document.createElement('img');
-salmonPic.src = 'https://github.com/Mosky2307/Restaurant-Page/blob/main/dist/images/salmon.jpeg?raw=true';
+salmonPic.src = './dist/images/salmon.jpeg';
 salmonPic.style.height = '200px';
 salmonPic.style.width = 'auto'
 salmonPic.style.float = 'left'
@@ -79,7 +79,7 @@ burgerWords.textContent = 'Burger. You can\'t go wrong'
 burgerWords.style.color = 'green'
 
 const steakPic = document.createElement('img');
-steakPic.src = 'https://github.com/Mosky2307/Restaurant-Page/blob/main/dist/images/pizza2.jpg?raw=true';
+steakPic.src = './dist/images/pizza2.jpg';
 steakPic.style.height = '200px';
 steakPic.style.width = 'auto'
 steakCard.appendChild(steakPic);
@@ -96,7 +96,7 @@ foodMenu.appendChild(salmonCard);
 foodMenu.appendChild(steakCard);
 
 const water = document.createElement('img');
-water.src = 'https://github.com/Mosky2307/Restaurant-Page/blob/main/dist/images/water.jpeg?raw=true'
+water.src = './dist/images/water.jpeg'
 
 menuContent.appendChild(drinks);
 menuContent.appendChild(water);

@@ -16,7 +16,7 @@ if (midContent.contains(homeContent) === true) {midContent.removeChild(homeConte
   midContent.appendChild(homeContent);
 
   const homePic = document.createElement('img');
-homePic.src = https://github.com/Mosky2307/Restaurant-Page/blob/main/dist/images/pizza.jpg?raw=true'
+homePic.src = './dist/images/pizza.jpg'
 const welcome = document.createElement('h1');
 welcome.textContent = 'Welcome to Taste City!';
 const homeInfo = document.createElement('div');
