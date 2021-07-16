@@ -1,5 +1,6 @@
 console.log('Huh!?!?!!!')
 
+const menuContent = document.querySelector('#menuContent');
 const content = document.querySelector('#content');
 content.style.display = 'flex';
 content.style.alignItems = 'center';

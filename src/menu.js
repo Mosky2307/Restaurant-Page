@@ -8,7 +8,7 @@ const displayMenu = () => {
               });
         
           contactButton.addEventListener ('click', () => {
-                if (midContent.contains(menuContent) === true) {midContent.removeChild(menuContent)};
+            midContent.removeChild(menuContent);
                   });
 
     const menuContent = document.createElement('div');
